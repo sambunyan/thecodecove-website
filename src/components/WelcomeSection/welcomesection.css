@@ -1,0 +1,54 @@
+.welcome-section {
+	display: flex;
+	justify-content: center; /* Centers content horizontally */
+	align-items: center; /* Centers content vertically */
+	min-height: 100vh;  /* Full height of the viewport */
+	padding: 20px;
+	box-sizing: border-box;
+  }
+
+#hello-wrapper {
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding: 60px 70px;
+	margin: 90px auto; 
+}
+
+#hello-wrapper h1 {
+	font-size: 4.8rem;
+	text-shadow: 8px 8px 5px black;
+    color: white;
+}
+
+#hello-wrapper h1 span {
+    color: #9b59b6;
+}
+
+#hello-wrapper p {
+	font-size: 2.2rem;
+	text-shadow: 4px 4px 2.5px black;
+    color: white;
+}
+
+#hello-wrapper p span:nth-of-type(1) {
+    color: #00bfae; /* Teal/aqua for "coding tutorials" */
+}
+
+#hello-wrapper p span:nth-of-type(2) {
+    color: #ff6f61; /* Coral/peach for "explainers &&" */
+}
+
+#hello-wrapper p span:nth-of-type(3) {
+	color: #ffc857;
+}
+
+@media screen and (max-width: 600px) {
+	#hello-wrapper h1 {
+		font-size: 3.8rem;
+	}
+
+	#hello-wrapper p {
+		font-size: 1.7rem;
+	}
+}

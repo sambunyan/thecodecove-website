@@ -1,0 +1,44 @@
+.about-section {
+    display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  min-height: 100vh;  /* Full height of the viewport */
+  padding: 20px;
+  box-sizing: border-box;
+  }
+
+  .about-description {
+    font-size: 2.5rem; /* Increased size of the text */
+    line-height: 1.6;
+    color: #ccc; /* Slightly lighter text color */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the whole text */
+  }
+  
+  /* Custom color for different highlighted text */
+  .highlight-yellow {
+    font-weight: bold;
+    color: #ffc857; /* Yellow for "The Code Cove" */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for yellow text */
+  }
+  
+  .highlight-red {
+    font-weight: bold;
+    color: #ff6f61; /* Red for "immerse" */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for red text */
+  }
+  
+  .highlight-teal {
+    font-weight: bold;
+    color: #00bfae; /* Teal for "coding community" */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for teal text */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .about-description {
+      font-size: 2rem; /* Slightly smaller font for mobile devices */
+    }
+  }
+  

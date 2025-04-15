@@ -1,0 +1,84 @@
+/* Container for the video cards */
+#video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the cards */
+    padding: 20px;
+    width: 100%;
+}
+
+/* Card styling */
+.video-card {
+    background-color: #1A1C23; /* Dark card background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+    overflow: hidden; /* Ensures rounded corners apply to children */
+    width: 300px; /* Fixed width for the cards */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px; /* Space between cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the card */
+.video-card:hover {
+    transform: translateY(-15px) scale(1.05); /* Lift the card on hover */
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover for more depth */
+    z-index: 10;
+}
+
+/* Thumbnail */
+.video-thumbnail {
+    width: 100%;
+    height: 180px; /* Fixed height for thumbnails */
+    object-fit: cover; /* Ensures the image covers the box */
+    border-bottom: 2px solid #ccc; /* Adds a subtle divider */
+}
+
+/* Video title */
+.video-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: white; /* White text for the title */
+}
+
+.video-card:hover .video-title {
+    color: #20c997; /* Teal color */
+    transition: color 0.4s ease-in-out; /* Smoother transition for color change */
+}
+a {
+    text-decoration: none;
+}
+
+/* Video description */
+.video-description {
+    font-size: 1rem;
+    color: #ddd; /* Lighter grey text for description */
+    padding: 0 10px 10px;
+    line-height: 1.4;
+}
+
+/* Responsive Layout: Adjust number of items per row on smaller screens */
+@media (max-width: 768px) {
+    .video-card {
+      width: 48%; /* Two items per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .video-card {
+      width: 100%; /* One item per row on small screens */
+    }
+}
+
+#video-text {
+    font-size: 2.5rem; /* Increased size of the text */
+    line-height: 1.6;
+    color: #ccc; /* Slightly lighter text color */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the whole text */
+}

@@ -1,0 +1,78 @@
+/* Navbar Styles */
+#navbar {
+    background-color: #23252f;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 0 20px;
+  }
+  
+  /* Logo on the left side */
+  .logo-container a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    height: 70px; 
+    padding-left: 20px; 
+  }
+  
+  /* Navigation Links on the right */
+  .navbar_container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1300px;
+  }
+  
+  .nav_ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav_item a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav_item a:hover {
+    color: #ffc857;
+  }
+  
+  /* Mobile Menu */
+  #mobile_nav {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px auto;
+    transition: all 0.3s ease;
+  }
+  
+  /* Removed hamburger menu styles */
+  
+  /* Ensure navbar links are always visible, even on small screens */
+  .nav_ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav_item:last-child a {
+    padding-right: 30px;
+}
