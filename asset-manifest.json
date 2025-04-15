@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/thecodecove-website/static/css/main.fee4a1a2.css",
+    "main.js": "/thecodecove-website/static/js/main.ad2e781c.js",
+    "index.html": "/thecodecove-website/index.html",
+    "main.fee4a1a2.css.map": "/thecodecove-website/static/css/main.fee4a1a2.css.map",
+    "main.ad2e781c.js.map": "/thecodecove-website/static/js/main.ad2e781c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fee4a1a2.css",
+    "static/js/main.ad2e781c.js"
+  ]
+}
