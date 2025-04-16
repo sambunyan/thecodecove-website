@@ -87,6 +87,54 @@ const VideoSection = () => {
       description: "Today, we’re diving into one of the first loops you’ll encounter in JavaScript—the for loop!",
       link: "https://youtu.be/53RwFSVD9b8?si=34iWNWLDds86Gins",
     },
+    {
+      thumbnail: `${process.env.PUBLIC_URL}/images/Arithmitic and asignment operators tn.png`,
+      title: "Arithmetic & Assignment Operators Explained | JavaScript",
+      description: "JavaScript operators are the foundation of coding logic, and in this video, we’re diving into assignment and arithmetic operators!",
+      link: "https://youtu.be/m4NWGcfnTEY?si=nDs3aYavgBWR1UHm",
+    },
+    {
+      thumbnail: `${process.env.PUBLIC_URL}/images/Ternary tn.png`,
+      title: "Ternary Operators Explained in 5 minutes | JavaScript",
+      description: "The ternary operator is a powerful shorthand for writing conditional statements in JavaScript. In this video, I’ll break down exactly how it works, compare it to if statements, and show you how to write cleaner, more efficient code using ternary expressions.",
+      link: "https://youtu.be/VpssECDQ47g?si=ImOsf-nelQw8RwNX",
+    },
+    {
+      thumbnail: `${process.env.PUBLIC_URL}/images/Logical Operator tn.png`,
+      title: "Learn Logical Operators in 5 Minutes | JavaScript Essentials",
+      description: "Logical operators help you combine multiple conditions in JavaScript, making your code more powerful and efficient. In this video, I’ll break down the three main logical operators.",
+      link: "https://youtu.be/-a70h8_httY?si=n2Hajj8IjxpE0WgK",
+    },
+    {
+      thumbnail: `${process.env.PUBLIC_URL}/images/Comparison operators tn.png`,
+      title: "Comparison Operators EXPLAINED in 7 minutes | Javascript",
+      description: "In this video, we’re diving into comparison operators in JavaScript! These operators allow you to compare values and determine relationships between them, which is crucial for writing conditional logic in your code.",
+      link: "https://youtu.be/2-VCTtW0u88?si=cvG9bKcNHRvyryE8",
+    },
+    {
+      thumbnail: `${process.env.PUBLIC_URL}/images/Custom methods.png`,
+      title: "Recreating Array Methods From Scratch | Javascript",
+      description: "Have you ever wondered how JavaScript’s built-in array methods like map(), reduce(), forEach(), and includes() actually work? In this video, we break them down and REBUILD them from scratch!.",
+      link: "https://youtu.be/1kdKDqERiAg?si=B63OiZdHFgJlIuTU",
+    },
+    {
+      thumbnail: `${process.env.PUBLIC_URL}/images/What Is HTML.png`,
+      title: "What Is HTML?",
+      description: "Have you ever wondered how websites are made? It all starts with HTML!",
+      link: "https://youtu.be/RotE8-6YIdU?si=MC0UazILk7hFK_0K",
+    },
+    {
+      thumbnail: `${process.env.PUBLIC_URL}/images/What is javascript.png`,
+      title: "What Is JavaScript?",
+      description: "Have you ever wondered what JavaScript is and why it’s so important? In this video, I’ll answer the most common questions about JavaScript, explain what you can do with it, and even show you a live demo at the end!",
+      link: "https://youtu.be/ofATAq2ONeg?si=hHiRmwY47DxDkw2k",
+    },
+    {
+      thumbnail: `${process.env.PUBLIC_URL}/images/6 Months On Youtube.png`,
+      title: "Why I made a Coding Youtube Channel",
+      description: "A review of the start of my YouTube journey, what I’ve learnt, why I started, and my advice to others starting out.",
+      link: "https://youtu.be/L2l4eUl3H4g?si=oIaS6X9yv-iicZgk",
+    }
   ];
   
 
